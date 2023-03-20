@@ -6,7 +6,7 @@ See here for why this is needed: https://github.com/postmanlabs/postman-app-supp
 
 ## How to install
 - Update Postman to the latest version (better if 10.12.4)
-- Open your Postman folder (for example in Windows is <appdata>/Local/Postman)
+- Open your Postman folder (for example in Windows is appdata/Local/Postman)
 - Enter the app-10.12.0 folder
 - Enter the "resources" folder
 - Open the terminal in this folder and execute "npx asar extract app.asar app" to extract the app.asar archive (requires node)
