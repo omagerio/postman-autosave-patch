@@ -4,7 +4,9 @@ setInterval(() => {
     try {
       let save_buttons = document.querySelectorAll(".request-editor-save-button__label");
       for (let save_button of save_buttons) {
-        save_button.click();
+        if(save_button.parentElement.className.indexOf("disabled") == -1){
+            save_button.click();
+        }
       }
     } catch (e) {
       console.log(e)
